@@ -1,0 +1,79 @@
+body{
+    background-color: #8080803c;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+.getWeather {
+   margin: 20px; 
+}
+.weatherInput{
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-width: 300px;
+}
+button[type ="submit"]{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(25, 151, 25);
+    cursor: pointer
+}
+
+button[type ="submit"]:hover{
+    background-color: rgba(20, 151, 20, 0.74);
+}
+
+.card{
+    background-image : linear-gradient(180deg, rgba(77, 146, 230, 0.836), rgba(252, 195, 88, 0.749));
+    padding: 20px;
+    min-width:300px;
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356)
+}
+
+h1{
+    margin-top: 0px;
+}
+
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.cityWeather, .weatherDegree{
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: rgba(0, 0, 0, 0.694)
+}
+.weatherHumidity{
+    font-style: italic;
+}
+.descWeather {
+     font-size: 2rem
+}
+.weatherEmoji{
+    margin: 0;
+    font-size: 3rem;
+    margin-top: 15px;
+}
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight:  bold;
+    color: rgba(0, 0, 0, 0.694)
+}
